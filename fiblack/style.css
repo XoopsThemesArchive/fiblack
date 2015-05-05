@@ -1,0 +1,342 @@
+html {
+	scrollbar-3dlight-color: #6a6a6a;
+	scrollbar-arrow-color: #fc9b00;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-face-color: #444444;
+	scrollbar-highlight-color: #444444;
+	scrollbar-shadow-color: #000000;
+	scrollbar-track-color: #2e2e2e
+}
+
+body{
+	background:#2e2e2e;
+	color:#e7e7e7;
+	font:11px Verdana,Arial,Helvetica,sans-serif;margin:6px;
+	padding:0;
+}
+
+td.topnav{
+	font-size:10px;
+	text-align: center;
+	vertical-align: middle;	
+	background: #010101 url(images/cellpic_nav.gif) repeat-x;
+	color:#dd6900;
+	border-top:solid 1px #ff8c00;
+	border-bottom:solid 1px #ff8c00;	
+	height:25px;
+}
+
+a:link,a:active,a:visited { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	text-decoration: none; 
+	color: #dd6900; 
+	font-style: normal;
+}
+a:hover { 
+	text-decoration: underline;  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #767676; 
+	font-style: normal
+}
+
+.bg{
+	color: 11px;
+	background: #272727;
+	border: solid 1px #ff8c00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	margin: 5; 
+	padding: 5;	
+}
+
+.bg1{
+	color: 11px;
+	background: url(images/cellpic_bkg.jpg) repeat-x;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+.outline{
+}
+table { 
+	width: 100%; 
+	margin: 5; 
+	padding: 5;
+	font-size: small
+}
+table td { 
+	padding: 0; 
+	border-width: 0; 
+	vertical-align: top; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+td {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #e7e7e7; 
+	font-size: 11px;border-top-width : 1px; 
+	background: #;
+	border-right-width : 1px; 
+	border-bottom-width : 1px; 
+	border-left-width : 1px;	
+}
+
+td.header {
+	padding:10px;
+    height:90px;
+}
+
+
+
+input { 
+	background-color : #444444;
+	color : #e7e7e7;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; 
+	border:solid 1px #ff8c00;	 
+}
+
+textarea {
+	color : #e7e7e7;
+	background-color : #444444;		
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	
+}
+select {
+	color : #e7e7e7;
+	background-color : #444444;	
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+ 
+} 
+img { 
+	border: 0;
+}
+ul { 
+	margin: 2px; 
+	padding: 2px; 
+	list-style: decimal inside; 
+	text-align: left;
+}
+li { 
+	margin-left: 2px; 
+	list-style: disc inside;
+}
+
+.odd { 
+	background-color: #272727;
+	text-align: left;
+		
+}
+.outer { 
+	background-color: #303030;
+	text-align:left;
+	border: 3px double #464646;			
+}
+.even { 
+	background-color: #404040;
+			
+}
+th { 
+	background-color: #2e2e2e; 
+	text-align: left; 
+	padding: 5px;
+}
+
+
+.head { 
+	color: #e7e7e7; 
+	font-size: 11px; 
+	font-weight : bold; 
+	height: 25px;
+	background:#333333;
+	vertical-align: middle;	
+}
+.foot { 
+	background-color: #333333; 
+	padding: 3px;
+}
+
+.comTitle {
+	color: #e7e7e7; 
+	font-size: 11px; 
+	font-weight : bold;
+	background: #414141;
+	height: 23px;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 10px;	
+
+}
+.comText {
+	padding: 20px;
+	text-align: left; 		
+}
+.comUserStat {
+	font-size: 10px; 
+	color: #999999; 
+	font-weight:bold; 
+	border: 1px solid #000000; 
+	background-color: #333333; 
+	margin: 2px; padding: 2px;
+}
+.comUserStatCaption {
+	font-weight: normal;
+}
+.comUserStatus {
+	margin-left: 2px; 
+	margin-top: 10px; 
+	color: #999999; 
+	font-weight:bold; 
+	font-size: 10px;
+}
+.comUserRank {
+	margin: 2px;
+}
+.comUserRankText {
+	font-size: 10px;
+	font-weight:bold;
+}
+.comUserRankImg {
+	border: 0;
+}
+.comUserName {}
+.comUserImg {
+	margin: 2px;
+}
+.comDate {
+	color: #999999;
+	font-weight: normal; 
+	font-style: italic;	 
+	font-size: smaller;
+	text-align: right;	
+}
+.comDateCaption {
+	color: #999999;
+	font-weight: bold; 
+	font-style: normal;
+	text-align: right;	
+}
+
+
+div.xoopsCode { 
+	background: #cccccc; 
+	border: 1px solid #000000;
+	color:#000000;	 
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+div.xoopsQuote { 
+	background: #cccccc; 
+	border: 1px solid #000000;
+	color:#000000;	 
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+
+.item {
+	background: #666666;
+	
+}
+.itemHead {
+	color: #d6aa00; 
+	font-size: 11px; 
+	font-weight : bold;
+	background-image: url(images/cellpic1.gif);
+	height: 20px;
+	padding: 7px;
+	border: solid 1px #dd6900;		
+}
+.itemInfo {
+	text-align: right; 
+	padding: 3px; 
+	background-color: #2e2e2e;
+	border-left: solid 1px #dd6900;
+	border-right:solid 1px #dd6900;
+}
+.itemTitle a {
+	font-size: 130%; 
+	font-size: 11px;	
+	font-weight: bold; 
+	font-variant: small-caps; 
+	color: #d6aa00; 
+	background-color: transparent;
+}
+.itemPoster {
+	color: #e7e7e7;
+	font-size: 90%; 
+	font-style: normal;
+}
+
+
+.itemPostDate {
+	font-size: 90%; 
+	font-style: normal;
+}
+.itemStats {
+	color: #e7e7e7;
+	font-size: 90%; 
+	font-style: normal;
+}
+.itemBody {
+	color: #e7e7e7;
+	background: #333333;
+	padding-left: 5px; 
+	text-align: left;
+	border: solid 1px #dd6900;			
+}
+.itemText {
+	color: #e7e7e7;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	line-height: 1.5em;
+}
+
+.itemFoot {
+	text-align: right; 
+	padding: 3px; 
+	background-color: #000000;
+	border-left: solid 1px #dd6900;
+	border-right:solid 1px #dd6900;
+	border-bottom:solid 1px #dd6900;		
+}
+.itemAdminLink {
+	font-size: 90%;
+}
+.itemPermaLink {
+	font-size: 90%;
+}
+
+.blockTitle {
+	color: #d6aa00;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(images/cellpic1.gif);	
+	border-left: solid 1px #d6aa00;
+	border-right: solid 1px #d6aa00;
+	border-top: solid 1px #d6aa00;		 
+	height: 28px;
+	vertical-align: middle;	
+}
+
+.blockTitle2 {
+	color: #dd6900;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;	
+	background-image: url(images/cellpic3.gif);
+	border-left: solid 1px #d6aa00;
+	border-right: solid 1px #d6aa00;
+	border-top: solid 1px #d6aa00;		 
+	height: 28px;
+	vertical-align: middle;	
+}
+
+.blockContent {
+	background-color: #333333; 
+	padding: 2px;
+	border-left: solid 1px #d6aa00;
+	border-right: solid 1px #d6aa00;
+	border-bottom: solid 1px #d6aa00;		
+}
